@@ -1,0 +1,91 @@
+body, html {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-color: #222;
+	margin:0;
+	padding:0;
+	background-color:#fff;
+}
+
+#wrap {
+	width: 750px;
+	margin: 0 auto;
+}
+
+#header {
+	padding: 5px 10px;
+	font-size: 30px;
+	font-color: #222;
+	text-align:center;
+	display:block;
+	text-decoration:none;
+	padding: 25px 0 15px 0;
+}
+
+#header:visited {
+	color: #222;
+}
+
+#login-area {
+	position:absolute;
+	top: 10px;
+	right: 10px;
+	color: #999;
+}
+
+#login-link {
+	text-decoration:none;
+}
+
+#login-link:visited {
+	color: #999;
+}
+#main {
+	float:left;
+	width: 478px;
+	padding: 10px;
+	border-right:1px solid #999;
+}
+
+#sidebar {
+	float:right;
+	width:230px;
+	padding: 10px;
+	text-align: center;
+}
+
+#footer {
+	clear:both;
+	border-top:2px solid #999;
+}
+
+#footer p {
+	text-align: right;
+	color:#999;
+	padding:1px;
+}
+
+#error {
+	color:red;
+}
+
+#label {
+	display:block;
+	text-align: right;
+}
+
+#submit {
+	margin-top: 5px;
+	float:right;
+	border: 1px solid #e6e6e6;
+	border-radius: 3px;
+	box-shadow: 0 0 2px rgba(0,0,0,1.0);
+	background: #fff;
+	background : -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(49%,#f1f1f1), color-stop(51%,#e1e1e1), color-stop(100%,#f6f6f6));
+	background : -moz-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	background : -webkit-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	background : -o-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	background : -ms-linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	background : linear-gradient(top, #ffffff 0%, #f1f1f1 49%, #e1e1e1 51%, #f6f6f6 100%);
+	filter : progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0 );
+}

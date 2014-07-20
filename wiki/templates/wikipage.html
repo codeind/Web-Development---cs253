@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block edit %}
+	<a id='login-link' href='/_edit/{{post.title}}'>Edit</a> | 
+{% endblock %}
+{% block content %}
+    <div><h3>{{post.title|capitalize}}</h3></div>   
+	<div>{{post.content}}</div>
+{% endblock %}

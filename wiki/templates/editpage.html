@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<form method='post'>
+		<h2>Create Wiki</h2>
+		<div>
+			<textarea rows='30' cols='59' name='content'>{{content}}</textarea>
+		</div>
+		<input id='submit' type='submit' value='Submit'/>
+	</form>
+{% endblock %}
